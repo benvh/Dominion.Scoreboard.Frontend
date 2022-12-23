@@ -1,7 +1,12 @@
 .supply-card {
-    display: inline-block;
+
     &--empty {
-        border: dashed 3px rgba(0.5, 0.5, 0.5, 0.8);
-        border-radius: .3em;
+        border: dashed 3px #333;
+        color: #333;
+        border-radius: .3rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
     }
 }

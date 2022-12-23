@@ -15,7 +15,7 @@ export function SupplyCard(props: CardProps): React.ReactElement {
         );
     } else {
         return (
-            <div className="supply-card supply-card--empty"></div>
+            <div className="supply-card supply-card--empty"><span>?</span></div>
         );
     }
 }
